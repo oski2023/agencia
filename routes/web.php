@@ -34,3 +34,8 @@ Route::get('/vista', function()
         'datos' => $datos
     ]);
 });
+
+Route::view('/nav','navbar');
+
+Route::view('/banner','hero');
+
