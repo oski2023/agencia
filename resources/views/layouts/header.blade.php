@@ -11,4 +11,5 @@
 </head>
 
 <body>
+    <div class="container mx-auto">
     <x-navbar></x-navbar>

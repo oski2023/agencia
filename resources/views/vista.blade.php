@@ -2,7 +2,7 @@
 
 
 <main class="container">
-    <h1>Mi primer Vista en Laravel</h1>
+    <h1 class="text-center">Mi primer Vista en Laravel</h1>
 
     <!--  handlebars o mustache -->
     Nombre: {{ $nombre }}

@@ -11,10 +11,10 @@
         </div>
       </div>
       <div class="text-center">
-        <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Data to enrich your online business</h1>
+        <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Clase de Laravel</h1>
         <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <x-btn-prueba href="#">Boton A</x-btn-prueba>
+          <x-btn-prueba href="https://www.manzana.com">Boton A</x-btn-prueba>
           <x-btn-prueba>Boton B</x-btn-prueba>
           <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
         </div>
