@@ -16,7 +16,7 @@
                 <th class="py-1 px-3 text-left w4/6">Región</th>
                 <th  class="py-1 px-3 text-right w1/6">
                     <a href="/region/create"
-                       class="inline-flex items-center py-1 px-4 border-2 rounded-md border-green-400 dark:border-green-600 text-sm font-medium leading-5 text-gray-900 dark:text-green-400 hover:bg-green-900 focus:outline-none focus:border-green-700 transition duration-150 ease-in-out"
+                        class="inline-flex items-center py-1 px-4 border-2 rounded-md border-green-400 dark:border-green-600 text-sm font-medium leading-5 text-gray-900 dark:text-green-400 hover:bg-green-900 focus:outline-none focus:border-green-700 transition duration-150 ease-in-out"
                     >  agregar  </a>
                 </th>
             </tr>
@@ -30,7 +30,7 @@
                     <td class="py-2 px-3 text-xl">{{ $region->nombre }}</td>
                     <td class="text-right py-2 px-3">
                         <a href="/region/edit/{{ 'idRegion' }}"
-                           class="inline-flex items-center  py-1 px-4 border-2 rounded-md border-green-400 dark:border-green-600 text-sm font-medium leading-5 text-gray-900 dark:text-green-400 hover:bg-green-900 focus:outline-none focus:border-green-700 transition duration-150 ease-in-out"
+                            class="inline-flex items-center  py-1 px-4 border-2 rounded-md border-green-400 dark:border-green-600 text-sm font-medium leading-5 text-gray-900 dark:text-green-400 hover:bg-green-900 focus:outline-none focus:border-green-700 transition duration-150 ease-in-out"
                         > Modificar </a>
                         <x-botones href="{{ url('/region/delete/'.'idRegion')}}">Eliminar</x-botones>
                     </td>
